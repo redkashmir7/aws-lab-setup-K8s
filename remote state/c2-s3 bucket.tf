@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform_bucket" {
-  bucket = "aws-eks-terraform-poppy125"
+  bucket = "any_name"
   }
 
 resource "aws_s3_bucket_acl" "example" {
